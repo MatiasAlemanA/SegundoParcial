@@ -10,7 +10,7 @@ namespace WebFutureApi.Models
     {
         [Key]
         
-        public int FutureId { get; set; }
+        public int FutureId { get; set; } 
         [Required(AllowEmptyStrings = false, ErrorMessage = "El campo es obligatorio")]
         [StringLength(100, MinimumLength =1, ErrorMessage = "La longitud es erronea")]
         public string Vision { get; set; }
